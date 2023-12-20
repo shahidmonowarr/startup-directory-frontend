@@ -6,7 +6,7 @@ const token = localStorage.getItem("token")
   ? localStorage.getItem("token")
   : null;
 
-const baseURL = "http://localhost:5000/api/v1";
+const baseURL = "https://startup-directory-backend.vercel.app/api/v1";
 
 export const api = createApi({
   reducerPath: "api",
